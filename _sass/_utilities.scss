@@ -1,6 +1,55 @@
 // Performance optimizations and additional utilities
 @import 'variables';
 
+// Prevent scroll when mobile menu is open
+body.menu-open {
+  overflow: hidden;
+  
+  @media (min-width: 769px) {
+    overflow: auto;
+  }
+}
+
+// Skip link for accessibility
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: $primary-color;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+  border-radius: 0 0 4px 4px;
+
+  &:focus {
+    top: 0;
+  }
+}
+
+// Focus trap for mobile menu
+.nav-links.nav-open {
+  a:focus {
+    outline: 2px solid $accent-color;
+    outline-offset: -2px;
+  }
+}
+
+// Improved touch targets for mobile
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .nav-links a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 // Loading spinner (optional for dynamic content)
 .loading-spinner {
   border: 3px solid var(--border-color);
