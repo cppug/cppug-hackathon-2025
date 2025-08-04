@@ -48,19 +48,95 @@ hero:
     </div>
 </section>
 
-<section id="project-ideas" class="site-section" data-aos="fade-up">
-    <h2>Project Ideas & Inspiration</h2>
-    <p>Teams will create functional business solutions using Power Platform tools. Here are some popular project types:</p>
-    <ul>
-        <li><strong>Inventory Management:</strong> Track assets, supplies, or equipment for nonprofits or small businesses.</li>
-        <li><strong>Approval Workflows:</strong> Automate document, purchase, or leave approvals.</li>
-        <li><strong>Inspection Apps:</strong> Digitize field inspections for safety, compliance, or maintenance.</li>
-        <li><strong>Employee Tools:</strong> Build onboarding, training, or feedback solutions.</li>
-        <li><strong>Custom Dashboards:</strong> Visualize KPIs and business metrics with Power BI.</li>
-    </ul>
-    <div class="cta" style="text-align: center;">
-        <a href="{{ '/project-ideas/' | relative_url }}" class="cta-button">View Full Project Guide</a>
+
+<section id="hackathon-overview" class="site-section" data-aos="fade-up">
+    <h2>How the Hackathon Works</h2>
+    <p>The CPPUG Hackathon brings together Calgary's brightest minds to tackle real business challenges using Microsoft Power Platform. This isn't just a coding competition, it's a collaborative learning experience where beginners and experts work side-by-side to create solutions that matter.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
+        <div data-aos="fade-up" data-aos-delay="100">
+            <h3 style="color: var(--primary-color);">🎯 Your Mission</h3>
+            <p>Build innovative solutions that solve real business problems or streamline processes using the full Microsoft Power Platform toolkit. Success means creating functional prototypes that demonstrate clear value and potential impact.</p>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="200">
+            <h3 style="color: var(--primary-color);">⏰ Time to Innovate</h3>
+            <p>You'll have exactly 6 hours to collaborate, design, build, and prepare your presentation. It's intense, exciting, and incredibly rewarding.</p>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="300">
+            <h3 style="color: var(--primary-color);">🔧 What You'll Build</h3>
+            <p>Focus on creating a working Minimum Viable Product (MVP) that showcases your core concept. We're looking for functional solutions that prove the Power Platform's potential. Polish comes later, problem-solving comes first!</p>
+        </div>
     </div>
+
+    <div style="margin: 4rem 0;">
+        <h3 style="color: var(--primary-color); text-align: center; margin-bottom: 2rem;" data-aos="fade-up">📊 Judging Criteria</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="100">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Functionality</h4>
+                <p style="margin: 0; font-size: 0.9rem;">Does the solution work as demonstrated?</p>
+            </div>
+            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="200">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔗</div>
+                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Power Platform Use</h4>
+                <p style="margin: 0; font-size: 0.9rem;">How well did you leverage the platform?</p>
+            </div>
+            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="300">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎨</div>
+                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">User Experience</h4>
+                <p style="margin: 0; font-size: 0.9rem;">Is it intuitive and visually appealing?</p>
+            </div>
+            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="400">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎤</div>
+                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Presentation</h4>
+                <p style="margin: 0; font-size: 0.9rem;">How clearly did you communicate?</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: var(--background-light); padding: 2rem; border-radius: var(--border-radius); margin: 3rem 0;" data-aos="fade-up">
+        <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; text-align: center;">📋 Essential Guidelines</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <ul style="margin: 0; padding-left: 1rem; list-style-type: none;">
+                <li style="margin-bottom: 0.75rem;">✅ <strong>Team Size:</strong> 3-4 members work best</li>
+                <li style="margin-bottom: 0.75rem;">✅ <strong>Fresh Start:</strong> All development during event</li>
+                <li style="margin-bottom: 0.75rem;">✅ <strong>Platform Focus:</strong> Use Microsoft Power Platform</li>
+            </ul>
+            <ul style="margin: 0; padding-left: 1rem; list-style-type: none;">
+                <li style="margin-bottom: 0.75rem;">✅ <strong>MVP Mindset:</strong> Function over polish</li>
+                <li style="margin-bottom: 0.75rem;">✅ <strong>Team Formation:</strong> Solo participants matched</li>
+                <li style="margin-bottom: 0.75rem;">✅ <strong>Success Focus:</strong> Creativity & business impact</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cta" style="text-align: center; margin-top: 2rem;">
+        <a href="{{ '/complete-rules/' | relative_url }}" class="cta-button">View Complete Rules & FAQ</a>
+    </div>
+</section>
+
+<section id="agenda" class="site-section" data-aos="fade-up">
+    <h2>Your Day at a Glance</h2>
+    <ul>
+        <li><strong>Opening Kickoff (20 min):</strong> Welcome, introductions, and get pumped for an amazing day!</li>
+        <li><strong>Build Time (3 hours 10 min):</strong> Collaborate, innovate, and create solutions that solve real problems.</li>
+        <li><strong>Fuel Break (20 min):</strong> Recharge with food, drinks, and networking opportunities.</li>
+        <li><strong>Demo Showtime (1 hr 20 min):</strong> Present your solutions and see what other teams have built.</li>
+        <li><strong>Judge Deliberation & Networking (10 min):</strong> Mingle, network, and celebrate your hard work while judges finalize scores.</li>
+        <li><strong>Awards Ceremony (20 min):</strong> Recognize winners, celebrate achievements, and wrap up an incredible event.</li>
+    </ul>
+</section>
+
+<section id="prizes" class="site-section" data-aos="fade-up">
+    <h2>Amazing Prizes Await!</h2>
+    <ul>
+        <li><strong>🏆 Champions:</strong> Microsoft certification exam vouchers (PL-100, PL-200, PL-900) to advance your career!</li>
+        <li><strong>🥈 Outstanding Teams:</strong> Exclusive Clippy mascots for that perfect desk companion.</li>
+        <li><strong>🌟 All Participants:</strong> Digital achievement certificates and LinkedIn badges to showcase your accomplishment.</li>
+    </ul>
+<p style="font-style: italic; color: var(--primary-color); margin-top: 1rem; padding: 1rem; background: var(--background-light); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">Every participant walks away with new skills, connections, and the satisfaction of building something incredible!</p>
 </section>
 
 <section id="sponsors" class="site-section" data-aos="fade-up">
@@ -116,95 +192,6 @@ hero:
     </div>
 </section>
 
-<section id="hackathon-overview" class="site-section" data-aos="fade-up">
-    <h2>How the Hackathon Works</h2>
-    <p>The CPPUG Hackathon brings together Calgary's brightest minds to tackle real business challenges using Microsoft Power Platform. This isn't just a coding competition, it's a collaborative learning experience where beginners and experts work side-by-side to create solutions that matter.</p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
-        <div data-aos="fade-up" data-aos-delay="100">
-            <h3 style="color: var(--primary-color);">🎯 Your Mission</h3>
-            <p>Build innovative solutions that solve real business problems or streamline processes using the full Microsoft Power Platform toolkit. Success means creating functional prototypes that demonstrate clear value and potential impact.</p>
-        </div>
-        
-        <div data-aos="fade-up" data-aos-delay="200">
-            <h3 style="color: var(--primary-color);">⏰ Time to Innovate</h3>
-            <p>You'll have exactly 6 hours to collaborate, design, build, and prepare your presentation. It's intense, exciting, and incredibly rewarding.</p>
-        </div>
-        
-        <div data-aos="fade-up" data-aos-delay="300">
-            <h3 style="color: var(--primary-color);">🔧 What You'll Build</h3>
-            <p>Focus on creating a working Minimum Viable Product (MVP) that showcases your core concept. We're looking for functional solutions that prove the Power Platform's potential. Polish comes later, problem-solving comes first!</p>
-        </div>
-    </div>
-
-    <div style="margin: 4rem 0;">
-        <h3 style="color: var(--primary-color); text-align: center; margin-bottom: 2rem;" data-aos="fade-up">📊 Judging Criteria</h3>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
-            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="100">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
-                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Functionality (35%)</h4>
-                <p style="margin: 0; font-size: 0.9rem;">Does the solution work as demonstrated?</p>
-            </div>
-            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="200">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔗</div>
-                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Power Platform Use (40%)</h4>
-                <p style="margin: 0; font-size: 0.9rem;">How well did you leverage the platform?</p>
-            </div>
-            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="300">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎨</div>
-                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">User Experience (15%)</h4>
-                <p style="margin: 0; font-size: 0.9rem;">Is it intuitive and visually appealing?</p>
-            </div>
-            <div style="text-align: center; padding: 1rem;" data-aos="zoom-in" data-aos-delay="400">
-                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎤</div>
-                <h4 style="margin: 0.5rem 0; color: var(--accent-color);">Presentation (10%)</h4>
-                <p style="margin: 0; font-size: 0.9rem;">How clearly did you communicate?</p>
-            </div>
-        </div>
-    </div>
-
-    <div style="background: var(--background-light); padding: 2rem; border-radius: var(--border-radius); margin: 3rem 0;" data-aos="fade-up">
-        <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; text-align: center;">📋 Essential Guidelines</h3>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-            <ul style="margin: 0; padding-left: 1rem; list-style-type: none;">
-                <li style="margin-bottom: 0.75rem;">✅ <strong>Team Size:</strong> 3-4 members work best</li>
-                <li style="margin-bottom: 0.75rem;">✅ <strong>Fresh Start:</strong> All development during event</li>
-                <li style="margin-bottom: 0.75rem;">✅ <strong>Platform Focus:</strong> Use Microsoft Power Platform</li>
-            </ul>
-            <ul style="margin: 0; padding-left: 1rem; list-style-type: none;">
-                <li style="margin-bottom: 0.75rem;">✅ <strong>MVP Mindset:</strong> Function over polish</li>
-                <li style="margin-bottom: 0.75rem;">✅ <strong>Team Formation:</strong> Solo participants matched</li>
-                <li style="margin-bottom: 0.75rem;">✅ <strong>Success Focus:</strong> Creativity & business impact</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="cta" style="text-align: center; margin-top: 2rem;">
-        <a href="{{ '/complete-rules/' | relative_url }}" class="cta-button">View Complete Rules & FAQ</a>
-    </div>
-</section>
-
-<section id="agenda" class="site-section" data-aos="fade-up">
-    <h2>Your Day at a Glance</h2>
-    <ul>
-        <li><strong>Opening Kickoff (20 min):</strong> Welcome, introductions, and get pumped for an amazing day!</li>
-        <li><strong>Build Time (3 hours 10 min):</strong> Collaborate, innovate, and create solutions that solve real problems.</li>
-        <li><strong>Fuel Break (20 min):</strong> Recharge with food, drinks, and networking opportunities.</li>
-        <li><strong>Demo Showtime (1 hr 20 min):</strong> Present your solutions and see what other teams have built.</li>
-        <li><strong>Judge Deliberation & Networking (10 min):</strong> Mingle, network, and celebrate your hard work while judges finalize scores.</li>
-        <li><strong>Awards Ceremony (20 min):</strong> Recognize winners, celebrate achievements, and wrap up an incredible event.</li>
-    </ul>
-</section>
-
-<section id="prizes" class="site-section" data-aos="fade-up">
-    <h2>Amazing Prizes Await!</h2>
-    <ul>
-        <li><strong>🏆 Champions:</strong> Microsoft certification exam vouchers (PL-100, PL-200, PL-900) to advance your career!</li>
-        <li><strong>🥈 Outstanding Teams:</strong> Exclusive Clippy mascots for that perfect desk companion.</li>
-        <li><strong>🌟 All Participants:</strong> Digital achievement certificates and LinkedIn badges to showcase your accomplishment.</li>
-    </ul>
-<p style="font-style: italic; color: var(--primary-color); margin-top: 1rem; padding: 1rem; background: var(--background-light); border-radius: var(--border-radius); border-left: 4px solid var(--primary-color);">Every participant walks away with new skills, connections, and the satisfaction of building something incredible!</p>
-</section>
 
 <section id="community" class="site-section" data-aos="fade-up">
     <h2>Community</h2>
