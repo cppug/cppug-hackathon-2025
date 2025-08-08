@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CPPUG Hackathon 2025
+title: CPPUG Hackathon Challenge
 email: mallozzi@live.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  The CPPUG Hackathon 2025 is a collaborative event where PowerPlatform enthusiasts come together to innovate, learn, and build exciting projects.
+  The CPPUG Hackathon Challenge is a collaborative event where PowerPlatform enthusiasts come together to innovate, learn, and build exciting projects.
   Join us for a weekend of coding, networking, and fun!
 baseurl: "/hackathon-2025" # the subpath of your site, e.g. /blog
 url: "https://cppug.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,8 +35,8 @@ plugins:
 
 # Custom settings
 event:
-  date: "October 18, 2025"
-  location: "Platform Calgary - East Annex"
+  date: "TBD"
+  location: "TBD"
   capacity: 30
   duration: "6 hours"
 

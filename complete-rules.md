@@ -12,7 +12,7 @@ hide_title: true
     <h3>📅 Event Basics</h3>
     
     <p><strong>Q: When and where is the hackathon?</strong><br>
-    A: Targeting mid October 2025 (final date TBA), at Platform Calgary (East Annex). The event runs for approximately 6 hours including presentations and networking.</p>
+    A: Date and venue TBD. The event runs for approximately 6 hours including presentations and networking.</p>
 
     <p><strong>Q: How much does it cost to participate?</strong><br>
     A: The event is completely free! Thanks to our generous sponsors, we can provide food, drinks, prizes, and all the resources you need.</p>
@@ -113,7 +113,7 @@ hide_title: true
     </ul>
 
     <h3>📺 Community & Promotion</h3>
-    <p>This event brings together Calgary's growing Power Platform community to build real solutions that could help local businesses. Portions of the event will be livestreamed to help promote the Power Platform community and showcase local innovation. Event highlights will be shared afterward to acknowledge our venue partner Platform Calgary and showcase community achievements.</p>
+    <p>This event brings together Calgary's growing Power Platform community to build real solutions that could help local businesses. Portions of the event may be livestreamed to help promote the Power Platform community and showcase local innovation. Event highlights will be shared afterward to acknowledge community achievements.</p>
     
     <p>Our goals are to foster learning, encourage collaboration, showcase Power Platform capabilities, and have fun!</p>
 
